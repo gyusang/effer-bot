@@ -6,7 +6,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
 const path = require('path');
-var messengerButton = "<html><head><title>EFFER Bot</title></head><body><h1>Facebook Messenger Bot</h1>This is a bot based on Facebook Messenger. To use the bot, message <a href=\"m.me/effer.bot\">me</a>.</div></body></html>";
+var messengerButton = "<html><head><title>EFFER Bot</title></head><body><h1>Facebook Messenger Bot</h1>This is a bot based on Facebook Messenger. To use the bot, message <a href=\"https://m.me/effer.bot\">me</a>.</div></body></html>";
 
 // The rest of the code implements the routes for our Express server.
 let app = express();
